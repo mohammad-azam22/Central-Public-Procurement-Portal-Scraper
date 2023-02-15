@@ -7,6 +7,7 @@
 from dependencies.scraping.Scraper import Scraper
 from dependencies.cleaning.Cleaning import Cleaning
 from dependencies.standardization.Standardization import Standardization
+from dependencies.utils.Metadata import Metadata
 class Main:
     def __init__(self):
         self.obj1 = Scraper()
@@ -20,6 +21,9 @@ class Main:
         self.obj3 = Standardization()
         self.obj3.snake_case()
         self.obj3.saving()
+        
+        self.obj4 = Metadata()
+        self.obj4.generate_meatdata()
         
         
         
