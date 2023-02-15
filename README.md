@@ -26,7 +26,7 @@ NOTE:
 
 - Selenium: to build web-scraper
 - Pandas: to read the data
-- Nummpy: to wrangle the data
+- NumPy: to wrangle the data
 
 Note: 
 - All the libraries used are mentioned in the 'requirements.txt' file
